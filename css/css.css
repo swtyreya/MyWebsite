@@ -1,0 +1,327 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1b0cc;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #886583;
+    padding: 20px;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.site-name {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+    font-family: 'Verdana', sans-serif;
+}
+
+.nav-links a:hover {
+    color: #e65ace;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+}
+
+.nav-links2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links2 li {
+    margin-left: 20px;
+}
+
+.nav-links2 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Verdana', sans-serif;
+}
+
+.nav-links2 a:hover {
+    color: #cc54bc;
+}
+
+.nav-links2 {
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-links2 li {
+    margin: 10px 0;
+}
+
+.nav-links2 a {
+    font-size: 16px;
+}
+
+.category {
+    background-color: rgb(221, 195, 220);
+    width: fit-content;
+    margin-right: 20px;
+}
+.img {
+    text-align:center;
+  
+}
+.img3 {
+    text-align:right;
+    margin-left: 155px;
+}
+.img3 #img {
+    text-align: center;
+    height:550px;
+    width:400px;
+}
+.img1{
+    height:300px;
+    width:300px;
+}
+
+.img #img-description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #b11ba9;
+}
+#voucher{
+   width: 1100px;
+   height: 450px;
+}
+
+.main-content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.h2{
+    background-color: #db7de4;
+    font-style: oblique;
+    font-size: 40px;
+}
+.main-content1 {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    background-color: #ad658f;
+    margin-right: 130px;
+    margin-top: 50px;
+}
+.random{
+    margin-top: 60px;
+}
+
+.foot #description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    width: auto;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #db7de4;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav-links1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 90px; 
+}
+
+.nav-links1 li {
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+
+.nav-links1 a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 18px;
+    transition: color 0.3s;
+    font-family: 'Verdana', sans-serif;
+}
+.nav-icon {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px;
+}
+
+.nav-links1 a:hover {
+    color: #721162;
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;    
+    }
+    .footer-logo {
+        margin-bottom: 10px; 
+        width: fit-content;
+       
+    }
+    .nav-links1 {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px; 
+    }
+
+    .nav-links1 li {
+        margin: 10px 0;
+    }
+    .nav-icon {
+        margin-right: 5px; 
+    }
+    .nav-links1 a {
+        font-size: 16px;
+    }
+}
+.main-content2 {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+    background-color: #e9d6e8;
+    width: 100%;      
+    margin: 0;         
+    padding: 20px;    
+    box-sizing: border-box; 
+}
+.info #description{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #f03d9f;
+    width: auto;
+}
+.footer1{
+    background-color: rgb(110, 110, 110);
+}
+.footer2{
+    font-size: 16px;
+    color: rgb(212, 207, 207);
+}
+/* FAQ*/
+h3{
+    color: #81528f;
+    font-size: 30px;
+}
+p1{
+    color: grey;
+    font-size: 20px;
+}
+.p2{
+    color: grey;
+    font-size: 15px;
+}
+.last{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+/*Contact Us*/
+.head{
+    color: rgb(92, 90, 90);
+    font-size: 30px;
+}
+.contact{
+    color: rgb(82, 79, 79);
+    font-size: 20px;
+}
+/* about us */
+.about{
+    color:#895291;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.about1{
+    color: rgb(82, 79, 79);
+    font-size: 17px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* new arrival */
+.new{
+    text-align: left;
+}
+/* women's clothing*/
+.head1{
+    font-size: 30px;
+    color:#ab61ad;
+    text-align: left;
+}
+/*shipping rate*/
+.note{
+    color:red;
+}
+/*shein finds*/
+.random1{
+    margin-top: 60px;
+}
+.random1 #random1{
+    height: 300px;
+    width: 250px;
+}
