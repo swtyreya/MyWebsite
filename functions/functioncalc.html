@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>JavascriptFunction</title>
+        <script type="text/javascript" src="js/js.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/css.css" >
+<body>
+    <h1>Calculation</h1>
+    <p><b>Addition</b></p>
+    <input id="sum1" type="text" name="num1">
+    <input id="sum2" type="text" name="num2">
+    <input id="sum3" type="text" name="num3">
+    <button onclick="
+    let result = calc1(document.getElementById('sum1').value,
+                      document.getElementById('sum2').value);
+                      document.getElementById('sum3').value=result;
+     ">click</button>
+    <br>
+    <p><b>Subtraction</b></p>
+    <input id="diff1" type="text" name="num1">
+    <input id="diff2" type="text" name="num2">
+    <input id="diff3" type="text" name="num3">
+    <button onclick="subtract()">click</button>
+    <br>
+    <p><b>Multiplication</b></p>
+    <input id="pro1" type="text" name="num1">
+    <input id="pro2" type="text" name="num2">
+    <input id="pro3" type="text" name="num3">
+    <button onclick="multiply()">click</button>
+    <br>
+    <p><b>Division</b></p>
+    <input id="quo1" type="text" name="num1">
+    <input id="quo2" type="text" name="num2">
+    <input id="quo3" type="text" name="num3">
+    <button onclick="divide()">click</button>
+    <br>
+</body>
+</head>
+</html> 
