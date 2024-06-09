@@ -85,13 +85,13 @@ nav {
 }
 
 .nav-links2 li {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .nav-links2 a {
     text-decoration: none;
     color: #333;
-    font-size: 18px;
+    font-size: 10px;
     font-family: 'Verdana', sans-serif;
 }
 
@@ -105,7 +105,10 @@ nav {
 }
 
 .nav-links2 li {
-    margin: 10px 0;
+    margin: 5px 0;
+}
+.nav-links2 ul {
+    margin-left: 10px;
 }
 
 .nav-links2 a {
